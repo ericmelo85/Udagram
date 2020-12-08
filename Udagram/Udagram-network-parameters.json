@@ -1,5 +1,26 @@
 [
     {
-        
+        "ParameterKey" : "EnvironmentName",
+        "ParameterValue" : "UdagramProject"
+    },
+    {
+        "ParameterKey" : "VPCCIDR",
+        "ParameterValue" : "10.0.0.0/16"
+    },
+    {
+        "ParameterKey" : "UdagramPublicsbn1CIDR",
+        "ParameterValue" : "10.0.2.0/24"
+    },
+    {
+        "ParameterKey" : "UdagramPublicsbn2CIDR",
+        "ParameterValue" : "10.0.3.0/24"
+    },
+    {
+        "ParameterKey" : "UdagramPrivatesbn1CIDR",
+        "ParameterValue" : "10.0.0.0/24"
+    },
+    {
+        "ParameterKey" : "UdagramPrivatesbn2CIDR",
+        "ParameterValue" : "10.0.1.0/24"
     }
 ]

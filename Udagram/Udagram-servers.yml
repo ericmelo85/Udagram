@@ -68,7 +68,6 @@ Resources:
         SecurityGroups: 
             - !Ref WebSecurityGroup
         InstanceType: t3.medium
-        KeyName: public-server-devops-key
         BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:
